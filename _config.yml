@@ -2,23 +2,23 @@ title: Hobbang wanna be a rich
 author: hocheol
 description: AI student
 logo_img: "/assets/img/favicon.webp"
-profile_img: "/assets/img/profile.webp"
+profile_img: "/assets/img/me_photo.png"
 
 # Social Links
 email: hocheol0303@gmail.com
-github_username: hobbang
+github_username: hocheol0303
 # twitter_username: twitter
 instagram_username: ghcjfaos
-linkedin_username: 양호철
+linkedin_username: 호철-양-3a080132a
 # facebook_username: facebook
 
-# # External API
-# giscus_repo: "byanko55/jekyll-theme-satellite"
-# giscus_repoId: "R_kgDOJ6fqWg"
-# giscus_category: "Q&A"
-# giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
-# goatcounter_code: byanko77
-# google_analytics:
+# External API
+giscus_repo: "byanko55/jekyll-theme-satellite"
+giscus_repoId: "R_kgDOJ6fqWg"
+giscus_category: "Q&A"
+giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
+goatcounter_code: byanko77
+google_analytics:
 
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
 # Otherwise, set its value as "/<repo-name>". ex) baseurl: /myblog
