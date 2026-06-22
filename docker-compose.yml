@@ -1,0 +1,17 @@
+services:
+  jekyll:
+    build: .
+    volumes:
+      # 1. 현재 디렉토리의 소스코드를 컨테이너 내부와 실시간 동기화
+      - .:/srv/jekyll
+      # 2. 젬 캐시를 Named Volume으로 격리하여 컨테이너 재빌드 시 재다운로드 방지
+      - gem_cache:/usr/local/bundle
+    ports:
+      - "4000:4000"
+    environment:
+      - JEKYLL_ENV=development
+      # 서버 구동 전 의존성 검사 및 자동 설치 로직 추가
+    command: bash -c "bundle check || bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling"
+
+volumes:
+  gem_cache:
