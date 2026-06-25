@@ -11,7 +11,7 @@ services:
     environment:
       - JEKYLL_ENV=development
       # 서버 구동 전 의존성 검사 및 자동 설치 로직 추가
-    command: bash -c "bundle check || bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling"
+    command: bash -c "bundle check || bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling --trace"
 
 volumes:
   gem_cache:
